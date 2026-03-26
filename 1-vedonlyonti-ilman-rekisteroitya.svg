@@ -1,0 +1,25 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1a6b2f"/>
+      <stop offset="100%" stop-color="#0d3d1a"/>
+    </radialGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="url(#bg1)"/>
+  <!-- Football pentagon patches -->
+  <circle cx="32" cy="30" r="16" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.9"/>
+  <polygon points="32,18 36,22 34,27 30,27 28,22" fill="#ffffff" opacity="0.95"/>
+  <polygon points="44,26 42,31 37,31 35,27 38,23" fill="#ffffff" opacity="0.95"/>
+  <polygon points="41,38 36,40 33,37 35,32 40,32" fill="#ffffff" opacity="0.95"/>
+  <polygon points="23,38 28,40 31,37 29,32 24,32" fill="#ffffff" opacity="0.95"/>
+  <polygon points="20,26 22,31 27,31 29,27 26,23" fill="#ffffff" opacity="0.95"/>
+  <!-- No registration - strike-through badge -->
+  <circle cx="48" cy="16" r="10" fill="#e63946"/>
+  <line x1="41" y1="16" x2="55" y2="16" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Small person icon inside red circle -->
+  <circle cx="48" cy="13" r="2.5" fill="#ffffff" opacity="0.9"/>
+  <path d="M44 20 Q48 17 52 20" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+  <!-- Label -->
+  <text x="32" y="53" font-family="Arial Black, sans-serif" font-size="6" font-weight="900" fill="#4ade80" text-anchor="middle" letter-spacing="0.5">VAPAA</text>
+</svg>
